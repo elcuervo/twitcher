@@ -1,9 +1,9 @@
 # Twitcher
 
-The ticker updater
+It's like a tick but more anoying
 
 ```go
-twitch := twitcher.NewTwitcher(time.Seconds * 5)
+twitcher := twitcher.NewTwitcher(time.Seconds * 5)
 twitcher.Do(func() {
         print("I'm going to be executed every 5 seconds\n")
 })
